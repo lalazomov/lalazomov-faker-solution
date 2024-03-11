@@ -8,6 +8,9 @@ dependencies:
   axios:
     specifier: ^1.6.7
     version: 1.6.7
+  lalazomov-faker-solution:
+    specifier: ^1.0.1
+    version: 1.0.1
 
 packages:
 

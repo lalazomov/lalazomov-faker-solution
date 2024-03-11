@@ -1,6 +1,6 @@
 {
   "name": "lalazomov-faker-solution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates fake data using Faker Random User API.",
   "main": "src/index.js",
   "scripts": {
@@ -29,6 +29,6 @@
   "homepage": "https://github.com/todstick/lalazomov-faker-solution#readme",
   "dependencies": {
     "axios": "^1.6.7",
-    "lalazomov-faker-solution": "1.0.0"
+    "lalazomov-faker-solution": "1.0.1"
   }
 }

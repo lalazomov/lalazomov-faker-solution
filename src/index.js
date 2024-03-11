@@ -1,6 +1,9 @@
 const axios = require('axios')
-const { FAKER_API_URL } = require('./constants')
+const { FAKER_API_URL2 } = require('./constants')
 const { mapResponse } = require('./utils')
+
+/** Depencency **/
+console.log('test')
 
 /**
  * Generates fake data using Faker API.
@@ -24,7 +27,7 @@ async function generate(params = {}) {
   }
 
   q = new URLSearchParams(q).toString()
-  const req = await axios.get(FAKER_API_URL + '?' + q)
+  const req = await axios.get(FAKER_API_URL2 + '?' + q)
   const res = await req.data
 
   if (!res.results) {
